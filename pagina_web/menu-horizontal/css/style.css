@@ -1,0 +1,45 @@
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #00a553;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.list {
+  display: flex;
+}
+
+.list li{
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+  font-size: 1.6rem;
+  border-radius: 7px;
+  border: 1px solid #000;
+  background-color: #00a57a;
+}
+
+.list li:hover {
+  box-shadow: 1px 3px 7px 1px #000;
+}
+
+.list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
